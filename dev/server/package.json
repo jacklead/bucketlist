@@ -1,0 +1,24 @@
+{
+  "name": "bucketserver",
+  "version": "0.0.1",
+  "description": "server that manage the requests from bucketList app",
+  "main": "server.js",
+  "scripts": {
+    "test": "make bucketList"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git https://github.com/jacklead/bucketlist.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "J.Balczar",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "mongojs": "^2.3.0",
+    "morgan": "^1.7.0",
+    "restify": "^4.0.4"
+  }
+}
